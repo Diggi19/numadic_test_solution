@@ -1,0 +1,55 @@
+.sidebar_container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.sidebar_blank{
+    width: 70%;
+
+}
+.sidebar_main{
+    width: 30%;
+    background-color: #fff;
+    border-left: 1.5px solid rgba(201, 199, 199, 0.677);
+}
+.close{
+    width: 20px;
+    height: 20px;
+    background-color: rgba(242, 77, 77, 0.849);
+    margin-right: 2em;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.header{
+    width: 96%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1em;
+}
+.header> div> h3{
+    margin-left: 2em;
+}
+.flag{
+    width: 96%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+}
+.flag>img{
+    object-fit: cover;
+}
+.country{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body{
+    width: 100%;
+    height: 80px;
+    margin-left: 2em;
+}
